@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>CRUD</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">La Tiendita</span>
+      </nav>
+    <div class="container" id="main">
+        <div class="row" id="titulo">
+            <h2>Ingresa tus productos</h2>
+        </div>
+        <div class="row" id="postyget">
+            <div class="col" id="formulario">
+                <form id="product">
+                    <h5>Ingresa un producto</h5>
+                    <label for="nombre">Nombre del producto</label>
+                    <input type="text" name="nombre">
+                    <h5>Ingresa un precio</h5>
+                    <label for="price">Precio del producto</label>
+                    <input type="number" name="precio">
+                    <br>
+                    <button type="submit" id="btn">Enviar</button>
+                </form>
+            </div>
+            <div class="col" id="tabla">
+            <table id="inv">
+                <tbody>
+                    <tr>
+                        <td colspan="4">Inventario</td>
+                    </tr>
+                    <tr>
+                        <td>Nombre del producto</td>
+                        <td>Precio</td>
+                        <td colspan="2">Estado del producto</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button type="button" class="btn btn-danger">Borrar</button></td>
+                        <td><button type="button" class="btn btn-success">Actualizar</button></td>
+                        
+                    </tr>
+                </tbody>
+
+            </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+
+  </body>
+</html>

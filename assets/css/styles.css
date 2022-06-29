@@ -1,0 +1,23 @@
+#tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+#inv{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+tr, td{
+    justify-content: center;
+    border-collapse: separate;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 25px;
+}
